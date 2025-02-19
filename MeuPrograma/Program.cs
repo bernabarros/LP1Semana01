@@ -2,6 +2,9 @@
 
 namespace MeuPrograma
 {
+    /// <summary>
+    /// Print "Hello LP1!" and "Bye world" into console
+    /// </summary>
     public class Program
     {
         private static void Main(string[] args)
