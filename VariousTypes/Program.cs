@@ -26,7 +26,7 @@ namespace VariousTypes
             bool verdadeiro = true;
             bool falso = false;
 
-
+            Console.WriteLine("Hello LP1!");
             Console.WriteLine(inteiro);
             Console.WriteLine(uinteiro);
             Console.WriteLine(longo);
