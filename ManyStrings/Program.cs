@@ -23,6 +23,20 @@ namespace ManyStrings
             string caracter_unicode ="Isto é um teste, \n"+
             "com caracteres e unicode\u002E";
 
+            string concatenado_1 = "Isto é conca"+"tenação.";
+            string concatenado_2 = "Isto também é "+"concatenação.";
+            int conc_x = 2;
+            int conc_y = 3;
+            string concatenado_3 = "2 + " + conc_x + " = 4";
+            string concatenado_4 = conc_y + " + 2 = 5";
+            int inter_x = 4;
+            int inter_y = 5;
+            string interpolacao_1 = $"O valor da variável x é {inter_x}.";
+            string interpolacao_2 = $"{inter_x} mais {inter_y} é igual a "+
+            $"{inter_x + inter_y}";
+
+            
+
             Console.WriteLine("Hello LP1!");
             Console.WriteLine(teste);
             Console.WriteLine(aspas);
@@ -33,6 +47,14 @@ namespace ManyStrings
             Console.WriteLine(soma);
             Console.WriteLine(nome);
             Console.WriteLine(caracter_unicode);
+
+            Console.WriteLine(concatenado_1);
+            Console.WriteLine(concatenado_2);
+            Console.WriteLine(concatenado_3);
+            Console.WriteLine(concatenado_4);
+
+            Console.WriteLine(interpolacao_1);
+            Console.WriteLine(interpolacao_2);
 
 
         }
