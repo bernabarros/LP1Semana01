@@ -23,6 +23,9 @@ namespace VariousTypes
             float real = 2.2f;
             decimal dec = 3.3m;
 
+            bool verdadeiro = true;
+            bool falso = false;
+
 
             Console.WriteLine(inteiro);
             Console.WriteLine(uinteiro);
@@ -37,6 +40,9 @@ namespace VariousTypes
             Console.WriteLine(dobro);
             Console.WriteLine(real);
             Console.WriteLine(dec);
+
+            Console.WriteLine(verdadeiro);
+            Console.WriteLine(falso);
 
 
         }
