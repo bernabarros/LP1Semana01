@@ -8,6 +8,14 @@ namespace ManyStrings
         private static void Main(string[] args)
         {
             Console.OutputEncoding = Encoding.UTF8;
+
+            double xx = 1.23456;
+            int ii = 19;
+            string  formato_1 = $"xx = {xx:f2}";
+            string  formato_2 = $"xx = {xx:p1}";
+            string  formato_3 = $"ii = {ii:x}";
+            string  formato_4 = $"ii = {ii:c}";
+
             string teste = "Isto é um teste, \n com nova linha.";
             string aspas = "Isto é um teste, com \"aspas\".";
             string tabulacao = "Isto é um teste, com \t tabulação";
@@ -55,6 +63,11 @@ namespace ManyStrings
 
             Console.WriteLine(interpolacao_1);
             Console.WriteLine(interpolacao_2);
+
+            Console.WriteLine(formato_1);
+            Console.WriteLine(formato_2);
+            Console.WriteLine(formato_3);
+            Console.WriteLine(formato_4);
 
 
         }
