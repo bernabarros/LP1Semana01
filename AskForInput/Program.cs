@@ -12,7 +12,13 @@ namespace AskForInput
             string input_int = Console.ReadLine();
             int int_number = int.Parse(input_int);
 
-            Console.WriteLine(int_number);
+            Console.WriteLine($"Int number: {int_number}");
+
+            Console.WriteLine("Insert a floating number: ");
+            string input_float = Console.ReadLine();
+            float float_number = float.Parse(input_float);
+
+            Console.WriteLine($"Float number: {float_number}");
         }
     }
 }
