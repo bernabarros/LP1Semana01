@@ -19,6 +19,9 @@ namespace AskForInput
             float float_number = float.Parse(input_float);
 
             Console.WriteLine($"Float number: {float_number}");
+
+            Console.WriteLine($"{int_number} plus {float_number} is equal to "+
+            $"{int_number + float_number}");
         }
     }
 }
