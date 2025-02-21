@@ -13,7 +13,7 @@ namespace Smiley
             //Input variable
             string string_unicode;
             //Request caracter unicode
-            Console.WriteLine("Insere código    : ");
+            Console.Write("Insere código   : ");
             string_unicode = Console.ReadLine();
             //Convert string to int
             int int_unicode = System.Int32.Parse(string_unicode,
@@ -21,8 +21,7 @@ namespace Smiley
             //Convert int to unicode
             string code_unicode = char.ConvertFromUtf32(int_unicode).ToString();
             //Print caracter from unicode
-
-            Console.WriteLine($"Carácter Unicode : {code_unicode}");
+            Console.WriteLine($"Caráter Unicode : {code_unicode}");
         }
     }
 }
